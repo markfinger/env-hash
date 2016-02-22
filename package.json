@@ -1,6 +1,6 @@
 {
   "name": "env-hash",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Produces a hash value representing the state of a typical Node/NPM environment",
   "main": "lib/index.js",
   "scripts": {
