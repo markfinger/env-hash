@@ -3,7 +3,7 @@ import path from 'path';
 import rimraf from 'rimraf';
 import mkdirp from 'mkdirp';
 import async from 'async';
-import {assert} from '../utils/assert';
+import {assert} from './assert';
 import {hashFileSystemDataLists, readFileData, readDirectoryData, envHash} from '../env-hash';
 import Murmur from 'imurmurhash';
 
