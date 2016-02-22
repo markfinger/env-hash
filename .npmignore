@@ -1,0 +1,9 @@
+src/*
+scripts/*
+.babelrc
+.eslintrc
+.gitignore
+.travis.yml
+
+# Editor cruft
+.idea
