@@ -146,7 +146,7 @@ describe('env-hash', () => {
       const files = [file1, file2];
       const directories = [dir1, dir2];
 
-      return envHash({files, directories}).then(hash => {
+      return envHash({files: files, directories: directories}).then(hash => {
         return Promise.all([
           readFileData(files),
           readDirectoryData(directories)
