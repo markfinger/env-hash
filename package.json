@@ -4,7 +4,7 @@
   "description": "Produces a hash value representing the state of a typical Node/NPM environment",
   "main": "lib/index.js",
   "scripts": {
-    "test": "mocha --reporter spec 'lib/tests/env-hash.js'"
+    "test": "mocha --reporter spec"
   },
   "repository": {
     "type": "git",
